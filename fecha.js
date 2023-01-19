@@ -44,19 +44,19 @@ let esBisiesto = (año) => {
   
 function diaHabil(){
   switch(fechaPuesta){
-    case fechaPuesta=0:elementoh2.innerHTML="Es dia de descanso, tu disfruta";
+    case fechaPuesta=0:elementoh2.innerHTML="Es domingo, dia de descanso, tu disfruta";
             break;
-    case fechaPuesta=1:elementoh2.innerHTML="Tienes que ir a trabajar, nimodo";
+    case fechaPuesta=1:elementoh2.innerHTML="Es lunes, tienes que ir a trabajar, nimodo";
             break;
-    case fechaPuesta=2:elementoh2.innerHTML="Tienes que ir a trabajar, nimodo";
+    case fechaPuesta=2:elementoh2.innerHTML="Es martes, tienes que ir a trabajar, nimodo";
             break;
-    case fechaPuesta=3:elementoh2.innerHTML="Tienes que ir a trabajar, nimodo";
+    case fechaPuesta=3:elementoh2.innerHTML="Es miercoles, tienes que ir a trabajar, nimodo";
             break;
-    case fechaPuesta=4:elementoh2.innerHTML="Tienes que ir a trabajar, nimodo";
+    case fechaPuesta=4:elementoh2.innerHTML="Es jueves, tienes que ir a trabajar, nimodo";
             break;
-    case fechaPuesta=5:elementoh2.innerHTML="Tienes que ir a trabajar, nimodo";
+    case fechaPuesta=5:elementoh2.innerHTML="Es viernes, tienes que ir a trabajar, nimodo";
             break;
-    case fechaPuesta=6:elementoh2.innerHTML="Es dia de descanso, tu disfruta";
+    case fechaPuesta=6:elementoh2.innerHTML="Es sabado, dia de descanso, tu disfruta";
             break;
    
   }
