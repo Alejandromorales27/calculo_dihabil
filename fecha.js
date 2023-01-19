@@ -31,6 +31,11 @@ let esBisiesto = (año) => {
         }
       }
 
+      function validateInput(input, valorMinimo,valorMaximo) {
+        if (input.value < valorMinimo || input.value > valorMaximo) {
+          input.value = "";
+        }
+      }
 
         
   
@@ -84,7 +89,7 @@ elementoh2Bisiesto=document.getElementById("bisiesto")
 let comprobandoDia;
 function verificar(){
   llamadoDatos()
-  if(dia>=0) {    
+  if(dia<=31) {    
   let date1 = new Date(mes + " " + dia + ", " + año);
   fechaPuesta=date1.getUTCDay();
   diaHabil(fechaPuesta)
