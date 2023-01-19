@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sesion 1</h1>
+   
+
+    
+    
+    <legend>FECHA</legend>
+    <input class="dia" id="dia" type="number"min="1" max="31">
+
+    <select class="mes">
+            <option value="january" >enero</option>
+            <option value="february" >febrero</option>
+            <option value="march">marzo</option>
+            <option value="april">abril</option>
+            <option value="may">mayo</option>
+            <option value="june">junio</option>
+            <option value="july">julio</option>
+            <option value="august">agosto</option>
+            <option value="september">septiembre</option>
+            <option value="octuber">octubre</option>
+            <option value="november">noviembre</option>
+            <option value="december">diciembre</option>
+        </select>
+
+        <input type="number" min="10" class="año" required>
+        <button type="submit" class="buttons">verificar dia</button>
+        
+        <h2 id="diaHN"></h2>
+        <h2 id="bisiesto"></h2>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./fecha.js"></script>
+</body>
+</html>
