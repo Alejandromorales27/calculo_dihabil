@@ -24,6 +24,12 @@ let esBisiesto = (año) => {
 
   }
 
+  function validarAño() {
+        let año = document.querySelector(".año").value;
+        if (año < 10) {
+          alert("El año debe ser mayor o igual a 10");
+        }
+      }
 
 
         
@@ -77,14 +83,14 @@ elementoh2Bisiesto=document.getElementById("bisiesto")
 
 let comprobandoDia;
 function verificar(){
-        
   llamadoDatos()
+  if(dia>=0) {    
   let date1 = new Date(mes + " " + dia + ", " + año);
   fechaPuesta=date1.getUTCDay();
   diaHabil(fechaPuesta)
   comprobandoDia=esBisiesto(año)
   SiEsBisiesto(comprobandoDia)
-
+ } 
 
 } 
 
